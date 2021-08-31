@@ -1,0 +1,36 @@
+.colchange { 
+              animation: redred 1000ms 0ms infinite linear;
+            }
+            @keyframes redred {
+              0% {
+                filter: hue-rotate(0deg);
+              }
+              100% {
+                filter: hue-rotate(360deg);
+              }
+            }
+
+.zoom {
+      transition: transform .2s; /* Animation */
+    }
+
+    .zoom:hover {
+      transform: scale(1.05);
+    }
+
+.gold { background: linear-gradient(
+                            to right,
+                            #462523 0,
+                            #cb9b51 22%, 
+                            #f6e27a 45%,
+                            #f6f2c0 50%,
+                            #f6e27a 55%,
+                            #cb9b51 78%,
+                            #462523 100%
+                            );
+              
+            }
+          
+
+
+
