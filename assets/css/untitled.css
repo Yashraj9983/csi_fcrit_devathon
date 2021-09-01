@@ -21,15 +21,31 @@
 .gold { background: linear-gradient(
                             to right,
                             #462523 0,
-                            #cb9b51 22%, 
+                            
+                            #cb9b51 42%, 
                             #f6e27a 45%,
-                            #f6f2c0 50%,
+                            #ffffff 50%,
                             #f6e27a 55%,
-                            #cb9b51 78%,
+                            #cb9b51 58%,
+                            
                             #462523 100%
                             );
-              
+              background-size: 300% 300%;
+        animation: mymove3 4s linear infinite;
             }
+@keyframes mymove3 {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  
+}
+
           
 
 
